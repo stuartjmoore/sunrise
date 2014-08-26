@@ -3,7 +3,6 @@
     <dependencies>
         <deployment defaultVersion="101000" identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6206.8"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="6206.8"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -750,18 +749,6 @@
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <subviews>
-                            <webView translatesAutoresizingMaskIntoConstraints="NO" id="cwm-UI-cMK">
-                                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
-                                <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12"/>
-                            </webView>
-                        </subviews>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="cwm-UI-cMK" secondAttribute="bottom" id="61z-Ee-LJT"/>
-                            <constraint firstItem="cwm-UI-cMK" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="A2w-xz-Wad"/>
-                            <constraint firstItem="cwm-UI-cMK" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="N2f-zw-IPr"/>
-                            <constraint firstAttribute="trailing" secondItem="cwm-UI-cMK" secondAttribute="trailing" id="sIV-8w-Gov"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
