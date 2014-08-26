@@ -13,6 +13,7 @@
 		17BBDA0E19AD16830047D44E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17BBDA0D19AD16830047D44E /* Images.xcassets */; };
 		17BBDA1119AD16830047D44E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BBDA0F19AD16830047D44E /* Main.storyboard */; };
 		17BBDA1D19AD16830047D44E /* SunriseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BBDA1C19AD16830047D44E /* SunriseTests.m */; };
+		17BBDA2719AD18AA0047D44E /* SRWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BBDA2619AD18AA0047D44E /* SRWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		17BBDA1619AD16830047D44E /* SunriseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunriseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BBDA1B19AD16830047D44E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17BBDA1C19AD16830047D44E /* SunriseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunriseTests.m; sourceTree = "<group>"; };
+		17BBDA2619AD18AA0047D44E /* SRWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWindow.m; sourceTree = "<group>"; };
+		17BBDA2819AD18C40047D44E /* SRWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWindow.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +82,12 @@
 		17BBDA0219AD16830047D44E /* Sunrise */ = {
 			isa = PBXGroup;
 			children = (
-				17BBDA0719AD16830047D44E /* ViewController.h */,
-				17BBDA0819AD16830047D44E /* ViewController.m */,
 				17BBDA0A19AD16830047D44E /* AppDelegate.h */,
 				17BBDA0B19AD16830047D44E /* AppDelegate.m */,
+				17BBDA2819AD18C40047D44E /* SRWindow.h */,
+				17BBDA2619AD18AA0047D44E /* SRWindow.m */,
+				17BBDA0719AD16830047D44E /* ViewController.h */,
+				17BBDA0819AD16830047D44E /* ViewController.m */,
 				17BBDA0D19AD16830047D44E /* Images.xcassets */,
 				17BBDA0F19AD16830047D44E /* Main.storyboard */,
 				17BBDA0319AD16830047D44E /* Supporting Files */,
@@ -217,6 +222,7 @@
 			files = (
 				17BBDA0919AD16830047D44E /* ViewController.m in Sources */,
 				17BBDA0619AD16830047D44E /* main.m in Sources */,
+				17BBDA2719AD18AA0047D44E /* SRWindow.m in Sources */,
 				17BBDA0C19AD16830047D44E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SRWindow.h
 //  Sunrise
 //
 //  Created by Stuart Moore on 8/26/14.
@@ -8,7 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ViewController : NSViewController
+@interface SRWindow : NSWindow
 
 @end
-
