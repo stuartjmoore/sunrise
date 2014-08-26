@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17BBDA0619AD16830047D44E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BBDA0519AD16830047D44E /* main.m */; };
+		17BBDA0919AD16830047D44E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BBDA0819AD16830047D44E /* ViewController.m */; };
+		17BBDA0C19AD16830047D44E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BBDA0B19AD16830047D44E /* AppDelegate.m */; };
+		17BBDA0E19AD16830047D44E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17BBDA0D19AD16830047D44E /* Images.xcassets */; };
+		17BBDA1119AD16830047D44E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BBDA0F19AD16830047D44E /* Main.storyboard */; };
+		17BBDA1D19AD16830047D44E /* SunriseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BBDA1C19AD16830047D44E /* SunriseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17BBDA1719AD16830047D44E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17BBD9F819AD16820047D44E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17BBD9FF19AD16820047D44E;
+			remoteInfo = Sunrise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17BBDA0019AD16830047D44E /* Sunrise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunrise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BBDA0419AD16830047D44E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17BBDA0519AD16830047D44E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17BBDA0719AD16830047D44E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17BBDA0819AD16830047D44E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17BBDA0A19AD16830047D44E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17BBDA0B19AD16830047D44E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17BBDA0D19AD16830047D44E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		17BBDA1019AD16830047D44E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17BBDA1619AD16830047D44E /* SunriseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunriseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BBDA1B19AD16830047D44E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17BBDA1C19AD16830047D44E /* SunriseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunriseTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17BBD9FD19AD16820047D44E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BBDA1319AD16830047D44E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17BBD9F719AD16820047D44E = {
+			isa = PBXGroup;
+			children = (
+				17BBDA0219AD16830047D44E /* Sunrise */,
+				17BBDA1919AD16830047D44E /* SunriseTests */,
+				17BBDA0119AD16830047D44E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17BBDA0119AD16830047D44E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17BBDA0019AD16830047D44E /* Sunrise.app */,
+				17BBDA1619AD16830047D44E /* SunriseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17BBDA0219AD16830047D44E /* Sunrise */ = {
+			isa = PBXGroup;
+			children = (
+				17BBDA0719AD16830047D44E /* ViewController.h */,
+				17BBDA0819AD16830047D44E /* ViewController.m */,
+				17BBDA0A19AD16830047D44E /* AppDelegate.h */,
+				17BBDA0B19AD16830047D44E /* AppDelegate.m */,
+				17BBDA0D19AD16830047D44E /* Images.xcassets */,
+				17BBDA0F19AD16830047D44E /* Main.storyboard */,
+				17BBDA0319AD16830047D44E /* Supporting Files */,
+			);
+			path = Sunrise;
+			sourceTree = "<group>";
+		};
+		17BBDA0319AD16830047D44E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17BBDA0419AD16830047D44E /* Info.plist */,
+				17BBDA0519AD16830047D44E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17BBDA1919AD16830047D44E /* SunriseTests */ = {
+			isa = PBXGroup;
+			children = (
+				17BBDA1C19AD16830047D44E /* SunriseTests.m */,
+				17BBDA1A19AD16830047D44E /* Supporting Files */,
+			);
+			path = SunriseTests;
+			sourceTree = "<group>";
+		};
+		17BBDA1A19AD16830047D44E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17BBDA1B19AD16830047D44E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17BBD9FF19AD16820047D44E /* Sunrise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17BBDA2019AD16830047D44E /* Build configuration list for PBXNativeTarget "Sunrise" */;
+			buildPhases = (
+				17BBD9FC19AD16820047D44E /* Sources */,
+				17BBD9FD19AD16820047D44E /* Frameworks */,
+				17BBD9FE19AD16820047D44E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sunrise;
+			productName = Sunrise;
+			productReference = 17BBDA0019AD16830047D44E /* Sunrise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17BBDA1519AD16830047D44E /* SunriseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17BBDA2319AD16830047D44E /* Build configuration list for PBXNativeTarget "SunriseTests" */;
+			buildPhases = (
+				17BBDA1219AD16830047D44E /* Sources */,
+				17BBDA1319AD16830047D44E /* Frameworks */,
+				17BBDA1419AD16830047D44E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17BBDA1819AD16830047D44E /* PBXTargetDependency */,
+			);
+			name = SunriseTests;
+			productName = SunriseTests;
+			productReference = 17BBDA1619AD16830047D44E /* SunriseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17BBD9F819AD16820047D44E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Stuart J. Moore";
+				TargetAttributes = {
+					17BBD9FF19AD16820047D44E = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					17BBDA1519AD16830047D44E = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 17BBD9FF19AD16820047D44E;
+					};
+				};
+			};
+			buildConfigurationList = 17BBD9FB19AD16820047D44E /* Build configuration list for PBXProject "Sunrise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17BBD9F719AD16820047D44E;
+			productRefGroup = 17BBDA0119AD16830047D44E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17BBD9FF19AD16820047D44E /* Sunrise */,
+				17BBDA1519AD16830047D44E /* SunriseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17BBD9FE19AD16820047D44E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BBDA0E19AD16830047D44E /* Images.xcassets in Resources */,
+				17BBDA1119AD16830047D44E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BBDA1419AD16830047D44E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17BBD9FC19AD16820047D44E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BBDA0919AD16830047D44E /* ViewController.m in Sources */,
+				17BBDA0619AD16830047D44E /* main.m in Sources */,
+				17BBDA0C19AD16830047D44E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BBDA1219AD16830047D44E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BBDA1D19AD16830047D44E /* SunriseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17BBDA1819AD16830047D44E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17BBD9FF19AD16820047D44E /* Sunrise */;
+			targetProxy = 17BBDA1719AD16830047D44E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17BBDA0F19AD16830047D44E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17BBDA1019AD16830047D44E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17BBDA1E19AD16830047D44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		17BBDA1F19AD16830047D44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		17BBDA2119AD16830047D44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Sunrise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17BBDA2219AD16830047D44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Sunrise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		17BBDA2419AD16830047D44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SunriseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sunrise.app/Contents/MacOS/Sunrise";
+			};
+			name = Debug;
+		};
+		17BBDA2519AD16830047D44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SunriseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sunrise.app/Contents/MacOS/Sunrise";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17BBD9FB19AD16820047D44E /* Build configuration list for PBXProject "Sunrise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BBDA1E19AD16830047D44E /* Debug */,
+				17BBDA1F19AD16830047D44E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17BBDA2019AD16830047D44E /* Build configuration list for PBXNativeTarget "Sunrise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BBDA2119AD16830047D44E /* Debug */,
+				17BBDA2219AD16830047D44E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17BBDA2319AD16830047D44E /* Build configuration list for PBXNativeTarget "SunriseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BBDA2419AD16830047D44E /* Debug */,
+				17BBDA2519AD16830047D44E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17BBD9F819AD16820047D44E /* Project object */;
+}
