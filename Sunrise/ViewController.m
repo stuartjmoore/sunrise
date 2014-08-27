@@ -19,10 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    WKUserScript *script = [[WKUserScript alloc] initWithSource:@"document.getElementsByClassName('app-navbar')[0].style.display = \"none\";\
-                                                                  document.getElementsByClassName('app-wrapper')[0].style.top = 0;"
-                                                  injectionTime:WKUserScriptInjectionTimeAtDocumentEnd
-                                               forMainFrameOnly:YES];
+    NSString *jsPath = [NSBundle.mainBundle pathForResource:@"hide_toolbar" ofType:@"js"];
+    NSString *jsString = [NSString stringWithContentsOfFile:jsPath encoding:NSUTF8StringEncoding error:nil];
+    WKUserScript *script = [[WKUserScript alloc] initWithSource:jsString injectionTime:WKUserScriptInjectionTimeAtDocumentEnd forMainFrameOnly:YES];
     
     WKUserContentController *userContentController = [WKUserContentController new];
     [userContentController addUserScript:script];
@@ -59,10 +58,8 @@
 #pragma mark - Actions
 
 - (void)toggleMenu {
-    NSString *jsString = @"\
-        var menu_item = document.getElementsByClassName('navbar__item--menu')[0]; \
-        menu_item.firstChild.click(); \
-    ";
+    NSString *jsPath = [NSBundle.mainBundle pathForResource:@"toggle_menu" ofType:@"js"];
+    NSString *jsString = [NSString stringWithContentsOfFile:jsPath encoding:NSUTF8StringEncoding error:nil];
     
     [self.webView evaluateJavaScript:jsString completionHandler:^(id object, NSError *error) {
         if (error) {
