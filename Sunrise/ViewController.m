@@ -105,7 +105,7 @@
 - (void)showInvitationsPopover {
     NSString *jsString = @"\
         var menu_item = document.getElementsByClassName('invitations-logo')[0]; \
-        menu_item.click(); \
+        menu_item.firstChild.click(); \
     ";
     
     [self.webView evaluateJavaScript:jsString completionHandler:^(id object, NSError *error) {
