@@ -705,8 +705,8 @@
                                 </toolbarItem>
                                 <toolbarItem implicitItemIdentifier="AACED42F-C4FF-467D-A979-F7816E77D38E" label="Menu" paletteLabel="Menu" image="NSListViewTemplate" id="PrZ-rP-oHS">
                                     <nil key="toolTip"/>
-                                    <size key="minSize" width="32" height="28"/>
-                                    <size key="maxSize" width="40" height="32"/>
+                                    <size key="minSize" width="32" height="25"/>
+                                    <size key="maxSize" width="40" height="28"/>
                                     <button key="view" verticalHuggingPriority="750" id="bOB-Mj-Wc3">
                                         <rect key="frame" x="0.0" y="14" width="40" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -737,7 +737,7 @@
                                 </toolbarItem>
                                 <toolbarItem implicitItemIdentifier="1BEB189C-837D-4803-8B8F-01452D5208E5" label="View Type" paletteLabel="View Type" id="p8J-q8-z8b">
                                     <nil key="toolTip"/>
-                                    <size key="minSize" width="67" height="28"/>
+                                    <size key="minSize" width="67" height="25"/>
                                     <size key="maxSize" width="67" height="28"/>
                                     <segmentedControl key="view" verticalHuggingPriority="750" id="sUx-ua-NDY">
                                         <rect key="frame" x="0.0" y="14" width="67" height="28"/>
