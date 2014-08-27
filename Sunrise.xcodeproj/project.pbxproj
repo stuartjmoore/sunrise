@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17BB099119AE3195001B81DE /* SRWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BB099019AE3195001B81DE /* SRWindowController.m */; };
 		17BBDA0619AD16830047D44E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BBDA0519AD16830047D44E /* main.m */; };
 		17BBDA0919AD16830047D44E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BBDA0819AD16830047D44E /* ViewController.m */; };
 		17BBDA0C19AD16830047D44E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BBDA0B19AD16830047D44E /* AppDelegate.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17BB098F19AE3195001B81DE /* SRWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWindowController.h; sourceTree = "<group>"; };
+		17BB099019AE3195001B81DE /* SRWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWindowController.m; sourceTree = "<group>"; };
 		17BBDA0019AD16830047D44E /* Sunrise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunrise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BBDA0419AD16830047D44E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17BBDA0519AD16830047D44E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 				17BBDA0B19AD16830047D44E /* AppDelegate.m */,
 				17BBDA2819AD18C40047D44E /* SRWindow.h */,
 				17BBDA2619AD18AA0047D44E /* SRWindow.m */,
+				17BB098F19AE3195001B81DE /* SRWindowController.h */,
+				17BB099019AE3195001B81DE /* SRWindowController.m */,
 				17BBDA0719AD16830047D44E /* ViewController.h */,
 				17BBDA0819AD16830047D44E /* ViewController.m */,
 				17BBDA0D19AD16830047D44E /* Images.xcassets */,
@@ -224,6 +229,7 @@
 				17BBDA0619AD16830047D44E /* main.m in Sources */,
 				17BBDA2719AD18AA0047D44E /* SRWindow.m in Sources */,
 				17BBDA0C19AD16830047D44E /* AppDelegate.m in Sources */,
+				17BB099119AE3195001B81DE /* SRWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +416,7 @@
 				17BBDA2219AD16830047D44E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17BBDA2319AD16830047D44E /* Build configuration list for PBXNativeTarget "SunriseTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +425,7 @@
 				17BBDA2519AD16830047D44E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

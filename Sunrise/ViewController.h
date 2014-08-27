@@ -7,8 +7,25 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <WebKit/WebKit.h>
 
-@interface ViewController : NSViewController
+typedef NS_ENUM(NSUInteger, ViewType) {
+    ViewTypeWeek,
+    ViewTypeMonth
+};
+
+typedef NS_ENUM(NSUInteger, ViewDirection) {
+    ViewDirectionDecrease,
+    ViewDirectionToday,
+    ViewDirectionIncrease
+};
+
+@interface ViewController : NSViewController <WKNavigationDelegate, WKUIDelegate>
+
+- (void)toggleMenu;
+- (void)scrollDateVisible:(ViewDirection)direction;
+- (void)showInvitationsPopover;
+- (void)showViewType:(ViewType)type;
 
 @end
 
