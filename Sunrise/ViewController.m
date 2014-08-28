@@ -69,28 +69,21 @@
 }
 
 - (void)scrollDateVisible:(ViewDirection)direction {
-    NSString *jsString;
+    NSString *jsPath;
     
     switch (direction) {
         case ViewDirectionDecrease:
-            jsString = @"\
-                var menu_item = document.getElementsByClassName('navbar__item--controls')[0]; \
-                menu_item.getElementsByClassName('js-navbar-controls-prev')[0].click(); \
-            ";
+            jsPath = [NSBundle.mainBundle pathForResource:@"scroll_decrease" ofType:@"js"];
             break;
         case ViewDirectionToday:
-            jsString = @"\
-                var menu_item = document.getElementsByClassName('navbar__item--today')[0]; \
-                menu_item.firstChild.click(); \
-            ";
+            jsPath = [NSBundle.mainBundle pathForResource:@"scroll_to_today" ofType:@"js"];
             break;
         case ViewDirectionIncrease:
-            jsString = @"\
-                var menu_item = document.getElementsByClassName('navbar__item--controls')[0]; \
-                menu_item.getElementsByClassName('js-navbar-controls-next')[0].click(); \
-            ";
+            jsPath = [NSBundle.mainBundle pathForResource:@"scroll_increase" ofType:@"js"];
             break;
     }
+    
+    NSString *jsString = [NSString stringWithContentsOfFile:jsPath encoding:NSUTF8StringEncoding error:nil];
     
     [self.webView evaluateJavaScript:jsString completionHandler:^(id object, NSError *error) {
         if (error) {
@@ -100,10 +93,8 @@
 }
 
 - (void)showInvitationsPopover {
-    NSString *jsString = @"\
-        var menu_item = document.getElementsByClassName('invitations-logo')[0]; \
-        menu_item.firstChild.click(); \
-    ";
+    NSString *jsPath = [NSBundle.mainBundle pathForResource:@"invite_popover" ofType:@"js"];
+    NSString *jsString = [NSString stringWithContentsOfFile:jsPath encoding:NSUTF8StringEncoding error:nil];
     
     [self.webView evaluateJavaScript:jsString completionHandler:^(id object, NSError *error) {
         if (error) {
@@ -113,22 +104,18 @@
 }
 
 - (void)showViewType:(ViewType)type {
-    NSString *jsString;
+    NSString *jsPath;
     
     switch (type) {
         case ViewTypeMonth:
-            jsString = @"\
-                var menu_item = document.getElementsByClassName('navbar__item--location')[0]; \
-                menu_item.getElementsByClassName('navbar__item--location__month')[0].click(); \
-            ";
+            jsPath = [NSBundle.mainBundle pathForResource:@"display_month" ofType:@"js"];
             break;
         case ViewTypeWeek:
-            jsString = @"\
-                var menu_item = document.getElementsByClassName('navbar__item--location')[0]; \
-                menu_item.getElementsByClassName('navbar__item--location__week')[0].click(); \
-            ";
+            jsPath = [NSBundle.mainBundle pathForResource:@"display_week" ofType:@"js"];
             break;
     }
+    
+    NSString *jsString = [NSString stringWithContentsOfFile:jsPath encoding:NSUTF8StringEncoding error:nil];
     
     [self.webView evaluateJavaScript:jsString completionHandler:^(id object, NSError *error) {
         if (error) {

@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1731D56819AEA06A00DE3606 /* functions.js in Resources */ = {isa = PBXBuildFile; fileRef = 1731D56719AEA06A00DE3606 /* functions.js */; };
 		1731D56A19AEA14D00DE3606 /* hide_toolbar.js in Resources */ = {isa = PBXBuildFile; fileRef = 1731D56919AEA14D00DE3606 /* hide_toolbar.js */; };
 		1731D56C19AEA1F500DE3606 /* toggle_menu.js in Resources */ = {isa = PBXBuildFile; fileRef = 1731D56B19AEA1F500DE3606 /* toggle_menu.js */; };
+		174CC7EC19AF917E00F2AC36 /* scroll_decrease.js in Resources */ = {isa = PBXBuildFile; fileRef = 174CC7EB19AF917E00F2AC36 /* scroll_decrease.js */; };
+		174CC7EE19AF919300F2AC36 /* scroll_increase.js in Resources */ = {isa = PBXBuildFile; fileRef = 174CC7ED19AF919300F2AC36 /* scroll_increase.js */; };
+		174CC7F019AF91AB00F2AC36 /* scroll_to_today.js in Resources */ = {isa = PBXBuildFile; fileRef = 174CC7EF19AF91AB00F2AC36 /* scroll_to_today.js */; };
+		174CC7F419AF91D000F2AC36 /* invite_popover.js in Resources */ = {isa = PBXBuildFile; fileRef = 174CC7F319AF91D000F2AC36 /* invite_popover.js */; };
+		174CC7F619AF91EA00F2AC36 /* display_month.js in Resources */ = {isa = PBXBuildFile; fileRef = 174CC7F519AF91EA00F2AC36 /* display_month.js */; };
+		174CC7F819AF91FE00F2AC36 /* display_week.js in Resources */ = {isa = PBXBuildFile; fileRef = 174CC7F719AF91FE00F2AC36 /* display_week.js */; };
 		17BB099119AE3195001B81DE /* SRWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BB099019AE3195001B81DE /* SRWindowController.m */; };
 		17BBDA0619AD16830047D44E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BBDA0519AD16830047D44E /* main.m */; };
 		17BBDA0919AD16830047D44E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BBDA0819AD16830047D44E /* ViewController.m */; };
@@ -31,9 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1731D56719AEA06A00DE3606 /* functions.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = functions.js; path = Javascript/functions.js; sourceTree = "<group>"; };
 		1731D56919AEA14D00DE3606 /* hide_toolbar.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = hide_toolbar.js; path = Javascript/hide_toolbar.js; sourceTree = "<group>"; };
 		1731D56B19AEA1F500DE3606 /* toggle_menu.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = toggle_menu.js; path = Javascript/toggle_menu.js; sourceTree = "<group>"; };
+		174CC7EB19AF917E00F2AC36 /* scroll_decrease.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = scroll_decrease.js; path = Javascript/scroll_decrease.js; sourceTree = "<group>"; };
+		174CC7ED19AF919300F2AC36 /* scroll_increase.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = scroll_increase.js; path = Javascript/scroll_increase.js; sourceTree = "<group>"; };
+		174CC7EF19AF91AB00F2AC36 /* scroll_to_today.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = scroll_to_today.js; path = Javascript/scroll_to_today.js; sourceTree = "<group>"; };
+		174CC7F319AF91D000F2AC36 /* invite_popover.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = invite_popover.js; path = Javascript/invite_popover.js; sourceTree = "<group>"; };
+		174CC7F519AF91EA00F2AC36 /* display_month.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = display_month.js; path = Javascript/display_month.js; sourceTree = "<group>"; };
+		174CC7F719AF91FE00F2AC36 /* display_week.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = display_week.js; path = Javascript/display_week.js; sourceTree = "<group>"; };
 		17BB098F19AE3195001B81DE /* SRWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWindowController.h; sourceTree = "<group>"; };
 		17BB099019AE3195001B81DE /* SRWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWindowController.m; sourceTree = "<group>"; };
 		17BBDA0019AD16830047D44E /* Sunrise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sunrise.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,9 +83,14 @@
 		1731D56619AEA03F00DE3606 /* Javascript */ = {
 			isa = PBXGroup;
 			children = (
-				1731D56719AEA06A00DE3606 /* functions.js */,
 				1731D56919AEA14D00DE3606 /* hide_toolbar.js */,
 				1731D56B19AEA1F500DE3606 /* toggle_menu.js */,
+				174CC7EB19AF917E00F2AC36 /* scroll_decrease.js */,
+				174CC7ED19AF919300F2AC36 /* scroll_increase.js */,
+				174CC7EF19AF91AB00F2AC36 /* scroll_to_today.js */,
+				174CC7F319AF91D000F2AC36 /* invite_popover.js */,
+				174CC7F519AF91EA00F2AC36 /* display_month.js */,
+				174CC7F719AF91FE00F2AC36 /* display_week.js */,
 			);
 			name = Javascript;
 			sourceTree = "<group>";
@@ -223,11 +238,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				174CC7F619AF91EA00F2AC36 /* display_month.js in Resources */,
 				17BBDA0E19AD16830047D44E /* Images.xcassets in Resources */,
-				1731D56819AEA06A00DE3606 /* functions.js in Resources */,
 				1731D56A19AEA14D00DE3606 /* hide_toolbar.js in Resources */,
+				174CC7F819AF91FE00F2AC36 /* display_week.js in Resources */,
+				174CC7EC19AF917E00F2AC36 /* scroll_decrease.js in Resources */,
+				174CC7EE19AF919300F2AC36 /* scroll_increase.js in Resources */,
 				17BBDA1119AD16830047D44E /* Main.storyboard in Resources */,
+				174CC7F019AF91AB00F2AC36 /* scroll_to_today.js in Resources */,
 				1731D56C19AEA1F500DE3606 /* toggle_menu.js in Resources */,
+				174CC7F419AF91D000F2AC36 /* invite_popover.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
